@@ -1,0 +1,112 @@
+TestNG :  
+-Open Source Automated Testing FrameWork  
+ 
+NG- Next Generation  
+ 
+includes - unit, functional ,integration etc.... 
+
+
+Test Scripts :   
+Automated Test Cases 
+ 
+Test Cases - Manual Test Cases 
+ 
+Runnable Class - 
+MainMethod - to run any java program we need MainMethod //execution Point 
+  
+Non-runnable Class -   Functions/Methods 
+No MainMethod  
+
+Page Object Model Class - Non-runnable Class  
+
+functions - find web elements  
+
+TestNG   
+- doesn't require Main Method  -Test scripts (executing steps of tests)
+ 
+Java main method contains - Test scripts (executing steps of tests)
+
+TestNG will replace - Java Main Method , to run our test Scripts 
+ 
+Setup TestNG :   
+- Configured project into Maven  
+- Include Selenium dependencies - pom.xml file  
+- Include TestNG dependencies - pom.xml file
+ 
+ctrl+s = save 
+  
+Selenium & TestNG  :  
+ 
+Selenium- Automation Tool  - user actions on websites  
+TestNG - Framework  
+- data Handling  
+- pre-test execution  
+- post-test  execution 
+-Track errors etc......
+
+
+Testing Libraries - TestNG 
+ 
+1) Organize tests - Annotations  
+ 
+2) 100 tests  
+ 
+pass/fail - Assertion  
+Compare expected / actual tests 
+expected results - requirements  
+actual result - after executing the tests  
+
+3) test Suite - Collection of Test Cases  
+ 
+4) Generate Reports  
+  
+5) Data driven testing (DDT) - lad and use to automate test Cases
+ 
+
+
+Annotation -  Already created in TestNG /pre-defined    
+ 
+-Maintaince a sequence  to execute 
+
+@BeforeTest   - Executes only One time before all the tests 
+ 
+@Test  - Executes Multiple Times 
+
+@AfterTest  - Executes only One time after all the tests 
+
+ 
+Function -  
+Access modifier return_type Function_name (java)
+ 
+@BeforeMethod   
+test-1
+@AfterMethod 
+
+@BeforeMethod   
+test-2
+@AfterMethod 
+
+ 
+@BeforeMethod   
+test-3
+@AfterMethod 
+
+ @BeforeMethod   
+test-4
+@AfterMethod 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
